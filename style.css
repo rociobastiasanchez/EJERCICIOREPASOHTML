@@ -1,5 +1,46 @@
+html{
+    background-color: rgb(247, 199, 196);
+}
+
+
 li {
     font-size: 20px;
-    padding-left: 50px;
     color: blue;
 }
+.title{
+background-color: darkmagenta;
+}
+#protocolo{
+    background-color:deeppink;
+}
+.subtipe{
+    color: white;
+    background-color: red;
+}
+
+#mainBox{
+    border: 5px solid black;
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+}
+.caja3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
